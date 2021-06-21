@@ -1,0 +1,86 @@
+.options-container,
+.form-control,
+.unordered-list,
+.list-item {
+  background-color: transparent;
+}
+
+.options-container,
+.form-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-control {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  border: none;
+  outline: none;
+}
+.unordered-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.label-ele {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+.label-ele:hover {
+  font-size: 17px;
+  color: #f7786b;
+}
+
+.checkbox-ele {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.checkbox-ele:hover {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.generate-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.generate-password,
+.generate-quick-password {
+  background-image: linear-gradient(to right, #009245, #fcee21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto";
+  text-align: center;
+  border-width: 0px;
+  border: none;
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin-bottom: 25px;
+}
+
+.generate-quick-password {
+  background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+}
